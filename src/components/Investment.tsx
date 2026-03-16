@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { CheckCircle2, ArrowRight } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
 
 export default function Investment() {
   return (
@@ -111,10 +111,7 @@ export default function Investment() {
             </div>
           </div>
 
-          <button className="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-500 text-white px-8 py-4 rounded-full font-medium transition-colors">
-            Lass uns den Deal über WhatsApp finalisieren
-            <ArrowRight className="w-5 h-5" />
-          </button>
+
         </motion.div>
       </div>
     </section>

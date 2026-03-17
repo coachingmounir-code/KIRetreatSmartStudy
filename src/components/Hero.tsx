@@ -29,11 +29,11 @@ export default function Hero() {
           </div>
           
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-light tracking-tight mb-4 md:mb-6 leading-tight text-white drop-shadow-md">
-            KI Retreat Marokko<br className="md:hidden" /> – <span className="text-amber-500 italic block md:inline mt-2 md:mt-0">Premium-Angebot für Smart Study</span>
+            KI Intensivseminar Marokko<br className="md:hidden" /> – <span className="text-amber-500 italic block md:inline mt-2 md:mt-0">Premium-Angebot für Smart Study</span>
           </h1>
           
           <p className="text-base md:text-lg text-stone-200 font-light mb-8 md:mb-10 max-w-3xl mx-auto leading-relaxed drop-shadow-sm">
-            Dieses einwöchige Retreat ist sowohl für die bestehenden Unternehmenskunden von Smart Study als auch für neue, visionäre Geschäftskunden konzipiert. 
+            Dieses einwöchige Intensivseminar ist sowohl für die bestehenden Unternehmenskunden von Smart Study als auch für neue, visionäre Geschäftskunden konzipiert. 
             Die perfekte Symbiose aus High-End KI-Strategie und mentaler Klarheit.
           </p>
 

@@ -10,7 +10,7 @@ export default function YearlyPlan() {
       description: "In dieser Phase bündeln wir die Vorbereitung der Assets und den direkten Verkauf an die wärmste Zielgruppe.",
       steps: [
         { month: "April", title: "Assets & Landingpage", desc: "Aufbau der Landingpage, Skripterstellung & Generierung des KI-Werbefilms, Festlegung der Frühbucher-Boni." },
-        { month: "Mai", title: "Der kombinierte Pitch", desc: "Kostenloses KI-Briefing Webinar für bestehende Unternehmenskunden und neue Interessenten. Pitch des Retreats als nächster Schritt." },
+        { month: "Mai", title: "Der kombinierte Pitch", desc: "Kostenloses KI-Briefing Webinar für bestehende Unternehmenskunden und neue Interessenten. Pitch des Intensivseminars als nächster Schritt." },
         { month: "Juni", title: "Persönliches Closing", desc: "Direkte Follow-up-Telefonate. Ziel: 6 bis 8 der 12 Plätze durch das Netzwerk füllen." }
       ]
     },

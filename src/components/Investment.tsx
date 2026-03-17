@@ -18,7 +18,7 @@ export default function Investment() {
             className="space-y-8"
           >
             <div>
-              <h3 className="text-xl font-medium mb-4 text-white">Die Eckdaten des Retreats</h3>
+              <h3 className="text-xl font-medium mb-4 text-white">Die Eckdaten des Intensivseminars</h3>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3 text-stone-300">
                   <CheckCircle2 className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
@@ -69,12 +69,12 @@ export default function Investment() {
               </div>
               <div className="p-5 rounded-xl bg-stone-950 border border-stone-800">
                 <div className="text-amber-500 text-sm font-medium mb-2">Erfolgsbeteiligung</div>
-                <div className="text-stone-300">10 % Gewinnbeteiligung an den generierten Gewinnen des Retreats.</div>
+                <div className="text-stone-300">10 % Gewinnbeteiligung an den generierten Gewinnen des Intensivseminars.</div>
               </div>
               <div className="p-5 rounded-xl bg-stone-950 border border-stone-800">
                 <div className="text-amber-500 text-sm font-medium mb-2">Fairer Cashflow</div>
                 <div className="text-stone-300 text-sm leading-relaxed">
-                  50 % der Fixgagen werden erst fällig, sobald die 5 Mindestteilnehmer erreicht sind. Die restlichen 50 % sowie die Gewinnbeteiligung fließen unmittelbar nach Abschluss des Retreats.
+                  50 % der Fixgagen werden erst fällig, sobald die 5 Mindestteilnehmer erreicht sind. Die restlichen 50 % sowie die Gewinnbeteiligung fließen unmittelbar nach Abschluss des Intensivseminars.
                 </div>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function Investment() {
         >
           <h3 className="text-2xl font-serif mb-6 text-white">Der Fahrplan: Unsere nächsten Schritte</h3>
           <p className="text-stone-300 mb-10 max-w-2xl mx-auto">
-            Sobald wir uns einig sind, gehen wir direkt in die Umsetzung, um das KI Retreat in Marokko zügig an eure Bestandskunden zu vermarkten:
+            Sobald wir uns einig sind, gehen wir direkt in die Umsetzung, um das KI Intensivseminar in Marokko zügig an eure Bestandskunden zu vermarkten:
           </p>
           
           <div className="grid md:grid-cols-3 gap-6 mb-12 text-left">

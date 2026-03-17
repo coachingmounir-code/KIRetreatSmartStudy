@@ -57,9 +57,9 @@ export default function Strategy() {
           className="bg-stone-900 rounded-3xl p-8 md:p-12 border border-stone-800"
         >
           <div className="max-w-4xl mx-auto">
-            <h3 className="text-2xl md:text-3xl font-serif mb-6 text-center">Business Case: KI Retreat Marokko</h3>
+            <h3 className="text-2xl md:text-3xl font-serif mb-6 text-center">Business Case: KI Intensivseminar Marokko</h3>
             <p className="text-stone-400 mb-12 text-center max-w-2xl mx-auto">
-              Dieses einwöchige Retreat ist sowohl für die bestehenden Unternehmenskunden von Smart Study als auch zur Akquise von Neukunden konzipiert. 
+              Dieses einwöchige Intensivseminar ist sowohl für die bestehenden Unternehmenskunden von Smart Study als auch zur Akquise von Neukunden konzipiert. 
               Die Kalkulation basiert auf einem Netto-Ticketpreis von 4.999 €. Das Event ist bereits ab 5 Teilnehmern (Break-even) komplett durchfinanziert und profitabel.
             </p>
 

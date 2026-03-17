@@ -16,7 +16,7 @@ export default function Contract() {
             <span className="uppercase tracking-widest text-sm font-sans">Vertragsentwurf</span>
           </div>
 
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Kooperationsvertrag – "KI Retreat Marokko"</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Kooperationsvertrag – "KI Intensivseminar Marokko"</h2>
 
           <div className="space-y-6 text-stone-700 leading-relaxed">
             <p><strong>Zwischen:</strong><br/>
@@ -29,13 +29,13 @@ export default function Contract() {
             – nachfolgend "Auftraggeber" genannt –</p>
 
             <h3 className="text-lg font-bold text-stone-900 mt-8 mb-2">§ 1 Vertragsgegenstand</h3>
-            <p>Gegenstand dieses Vertrages ist die gemeinsame Konzeption, Vermarktung und Durchführung eines einwöchigen "KI Retreats in Marokko". Der Auftraggeber bietet dieses Retreat seinen bestehenden Unternehmenskunden sowie neuen B2B-Geschäftskunden als Premium-Leistung an. Der Dienstleister übernimmt die inhaltliche Leitung (KI-Beratung/Seminare) und stellt mit Selina [Nachname] die Yoga-Leitung für die Dauer des Retreats.</p>
+            <p>Gegenstand dieses Vertrages ist die gemeinsame Konzeption, Vermarktung und Durchführung eines einwöchigen "KI Intensivseminars in Marokko". Der Auftraggeber bietet dieses Intensivseminar seinen bestehenden Unternehmenskunden sowie neuen B2B-Geschäftskunden als Premium-Leistung an. Der Dienstleister übernimmt die inhaltliche Leitung (KI-Beratung/Seminare) und stellt mit Selina [Nachname] die Yoga-Leitung für die Dauer des Intensivseminars.</p>
 
-            <h3 className="text-lg font-bold text-stone-900 mt-8 mb-2">§ 2 Rahmenbedingungen des Retreats</h3>
+            <h3 className="text-lg font-bold text-stone-900 mt-8 mb-2">§ 2 Rahmenbedingungen des Intensivseminars</h3>
             <ul className="list-disc pl-5 space-y-1">
               <li><strong>Maximale Teilnehmerzahl:</strong> 12 Personen.</li>
               <li><strong>Ticketpreis:</strong> 4.999,- Euro pro Teilnehmer.</li>
-              <li><strong>Mindestteilnehmerzahl:</strong> Das Retreat wird verbindlich durchgeführt, sobald 5 Anmeldungen vorliegen.</li>
+              <li><strong>Mindestteilnehmerzahl:</strong> Das Intensivseminar wird verbindlich durchgeführt, sobald 5 Anmeldungen vorliegen.</li>
             </ul>
 
             <h3 className="text-lg font-bold text-stone-900 mt-8 mb-2">§ 3 Kosten- und Risikoübernahme</h3>
@@ -51,14 +51,14 @@ export default function Contract() {
             <ol className="list-decimal pl-5 space-y-1">
               <li><strong>Fixum Dienstleister:</strong> 5.000,- Euro (brutto).</li>
               <li><strong>Fixum Yoga-Leitung (Selina):</strong> 5.000,- Euro (brutto).</li>
-              <li><strong>Gewinnbeteiligung:</strong> Der Dienstleister erhält zusätzlich 10 % der Nettogewinne, die aus dem Retreat erwirtschaftet werden.</li>
+              <li><strong>Gewinnbeteiligung:</strong> Der Dienstleister erhält zusätzlich 10 % der Nettogewinne, die aus dem Intensivseminar erwirtschaftet werden.</li>
             </ol>
 
             <h3 className="text-lg font-bold text-stone-900 mt-8 mb-2">§ 5 Zahlungsmodalitäten (Meilensteine)</h3>
             <p>Die Auszahlung der unter § 4 definierten Honorare erfolgt risikominimierend in zwei Tranchen:</p>
             <ul className="list-disc pl-5 space-y-1">
               <li><strong>Tranche 1:</strong> 50 % der Fixgagen (jeweils 2.500,- Euro brutto) werden fällig, sobald die Mindestteilnehmerzahl von 5 Personen verbindlich angemeldet ist.</li>
-              <li><strong>Tranche 2:</strong> Die restlichen 50 % der Fixgagen sowie die 10 % Gewinnbeteiligung werden unmittelbar nach der vollständigen Durchführung des Retreats in Rechnung gestellt und zur Zahlung fällig.</li>
+              <li><strong>Tranche 2:</strong> Die restlichen 50 % der Fixgagen sowie die 10 % Gewinnbeteiligung werden unmittelbar nach der vollständigen Durchführung des Intensivseminars in Rechnung gestellt und zur Zahlung fällig.</li>
             </ul>
 
             <h3 className="text-lg font-bold text-stone-900 mt-8 mb-2">§ 6 Nächste Schritte & Laufzeit</h3>

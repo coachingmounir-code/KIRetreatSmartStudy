@@ -22,16 +22,20 @@ export default function LandingPagePromo() {
 
           <div className="inline-flex items-center gap-2 mb-8 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-sm font-medium">
             <Sparkles className="w-4 h-4" />
-            <span>Das Seminar im Detail</span>
+            <span>Vision & Prototyp</span>
           </div>
 
           <h2 className="text-3xl md:text-5xl font-serif text-white mb-6 leading-tight">
-            Tauche ein in die Welt des <br className="hidden md:block"/> 
-            <span className="text-amber-500">KI Intensivseminars Marokko</span>
+            Michael, so könnte unsere <br className="hidden md:block"/> 
+            <span className="text-amber-500">Landingpage aussehen</span>
           </h2>
           
-          <p className="text-stone-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            Möchtest du dir einen umfassenden Eindruck vom Programm, der traumhaften Location und allen Details machen? Besuche unsere dedizierte Landingpage für das Event.
+          <p className="text-stone-400 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed text-left md:text-center">
+            Dieser Link dient zur Veranschaulichung des Konzepts. Mit Hilfe von Künstlicher Intelligenz können wir diese Basis nun strategisch skalieren:
+            <span className="block mt-6 text-base md:text-lg">
+              <strong className="text-stone-200">1. Premium-Design:</strong> Wir können die Seite mit einfachsten Mitteln optisch um ein Vielfaches ansprechender und moderner gestalten.<br/>
+              <strong className="text-stone-200">2. Hyper-Personalisierung:</strong> Dank KI können wir zielgruppenspezifische Landingpages generieren, sodass jede spezifische Zielgruppe exakt angesprochen wird und wesentlich besser konvertiert.
+            </span>
           </p>
 
           <a 
@@ -40,7 +44,7 @@ export default function LandingPagePromo() {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 bg-amber-500 hover:bg-amber-400 text-stone-950 px-8 py-4 rounded-full font-medium text-lg transition-all duration-300 hover:shadow-[0_0_30px_rgb(245,158,11,0.3)] hover:-translate-y-1 shadow-lg group/btn"
           >
-            Zur offiziellen Landingpage
+            Zur Demo-Landingpage
             <ExternalLink className="w-5 h-5 group-hover/btn:rotate-12 transition-transform" />
           </a>
           

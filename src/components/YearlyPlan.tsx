@@ -22,7 +22,7 @@ export default function YearlyPlan() {
       steps: [
         { month: "Juli", title: "Launch der Kampagne", desc: "Video-Release auf LinkedIn. Start der gezielten Direktansprache von potenziellen Neukunden." },
         { month: "August", title: "Fachlicher Fokus", desc: "Content über die Notwendigkeit von KI im Mittelstand. Betonung des USPs: KI-Strategie + mentaler Ausgleich." },
-        { month: "September", title: "Intensivierter Outreach & Kaltakquise", desc: "Nachfassen bei Interessenten und kontinuierliches Posten von Content." }
+        { month: "September", title: "Intensivierter Outreach & Kaltakquise", desc: "Nachfassen bei Interessenten und kontinuierliches Posten von Content. Fokussierte Kaltakquise von Mounir, wenn zu diesem Zeitpunkt sich nicht mindestens 8 Teilnehmer angemeldet haben." }
       ]
     },
     {

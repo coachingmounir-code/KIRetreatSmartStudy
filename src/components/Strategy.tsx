@@ -54,48 +54,48 @@ export default function Strategy() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-stone-900 rounded-3xl p-8 md:p-12 border border-stone-800"
+          className="bg-white rounded-3xl p-8 md:p-12 shadow-xl text-stone-900"
         >
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl md:text-3xl font-serif mb-6 text-center">Business Case: KI Intensivseminar Marokko</h3>
-            <p className="text-stone-400 mb-12 text-center max-w-2xl mx-auto">
+            <p className="text-stone-600 mb-12 text-center max-w-2xl mx-auto">
               Dieses einwöchige Intensivseminar ist sowohl für die bestehenden Unternehmenskunden von Smart Study als auch zur Akquise von Neukunden konzipiert. 
               Die Kalkulation basiert auf einem Netto-Ticketpreis von 4.999 €. Das Event ist bereits ab 5 Teilnehmern (Break-even) komplett durchfinanziert und profitabel.
             </p>
 
             <div className="grid md:grid-cols-2 gap-12">
               <div>
-                <h4 className="text-lg font-medium mb-6 text-amber-500">Übersicht der Gesamtkosten (Fix)</h4>
-                <ul className="space-y-4 text-stone-300">
-                  <li className="flex justify-between border-b border-stone-800 pb-3">
+                <h4 className="text-lg font-medium mb-6 text-amber-600">Übersicht der Gesamtkosten (Fix)</h4>
+                <ul className="space-y-4 text-stone-700">
+                  <li className="flex justify-between border-b border-stone-200 pb-3">
                     <span>Villa (Marokko)</span>
                     <span>7.000 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-800 pb-3">
+                  <li className="flex justify-between border-b border-stone-200 pb-3">
                     <span>Verpflegung vor Ort</span>
                     <span>1.500 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-800 pb-3">
+                  <li className="flex justify-between border-b border-stone-200 pb-3">
                     <span>Team-Flüge</span>
                     <span>1.200 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-800 pb-3">
+                  <li className="flex justify-between border-b border-stone-200 pb-3">
                     <span>Arbeitsmaterialien & Extras</span>
                     <span>500 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-800 pb-3">
+                  <li className="flex justify-between border-b border-stone-200 pb-3">
                     <span>Produktion KI-Werbefilm</span>
                     <span>300 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-800 pb-3">
+                  <li className="flex justify-between border-b border-stone-200 pb-3">
                     <span>Honorar KI-Leitung</span>
                     <span>5.000 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-800 pb-3">
+                  <li className="flex justify-between border-b border-stone-200 pb-3">
                     <span>Honorar Yoga-Leitung</span>
                     <span>5.000 €</span>
                   </li>
-                  <li className="flex justify-between text-white font-medium pt-3 text-lg">
+                  <li className="flex justify-between text-stone-900 font-medium pt-3 text-lg">
                     <span>Gesamtkosten</span>
                     <span>20.500 €</span>
                   </li>
@@ -104,38 +104,38 @@ export default function Strategy() {
               </div>
 
               <div>
-                <h4 className="text-lg font-medium mb-6 text-amber-500">Profit-and-Loss (Smart Study)</h4>
+                <h4 className="text-lg font-medium mb-6 text-amber-600">Profit-and-Loss (Smart Study)</h4>
                 <div className="overflow-x-auto">
                   <table className="w-full text-left text-sm">
                     <thead>
-                      <tr className="border-b border-stone-700 text-stone-400">
+                      <tr className="border-b border-stone-300 text-stone-600">
                         <th className="pb-4 font-medium">Position</th>
                         <th className="pb-4 font-medium text-right">Pilot (5 TN)</th>
                         <th className="pb-4 font-medium text-right">Skaliert (12 TN)</th>
                       </tr>
                     </thead>
-                    <tbody className="text-stone-300">
-                      <tr className="border-b border-stone-800">
+                    <tbody className="text-stone-700">
+                      <tr className="border-b border-stone-200">
                         <td className="py-4">Umsatzerlös (netto)</td>
                         <td className="py-4 text-right">24.995,00 €</td>
                         <td className="py-4 text-right">59.988,00 €</td>
                       </tr>
-                      <tr className="border-b border-stone-800">
-                        <td className="py-4 text-stone-400">Abzug Gesamtkosten</td>
-                        <td className="py-4 text-right text-stone-400">- 20.500,00 €</td>
-                        <td className="py-4 text-right text-stone-400">- 20.500,00 €</td>
+                      <tr className="border-b border-stone-200">
+                        <td className="py-4 text-stone-500">Abzug Gesamtkosten</td>
+                        <td className="py-4 text-right text-stone-500">- 20.500,00 €</td>
+                        <td className="py-4 text-right text-stone-500">- 20.500,00 €</td>
                       </tr>
-                      <tr className="border-b border-stone-800 font-medium text-white">
+                      <tr className="border-b border-stone-200 font-medium text-stone-900">
                         <td className="py-4">Operativer Gewinn</td>
                         <td className="py-4 text-right">4.495,00 €</td>
                         <td className="py-4 text-right">39.488,00 €</td>
                       </tr>
-                      <tr className="border-b border-stone-800">
-                        <td className="py-4 text-stone-400">10% Gewinnbeteiligung</td>
-                        <td className="py-4 text-right text-stone-400">- 449,50 €</td>
-                        <td className="py-4 text-right text-stone-400">- 3.948,80 €</td>
+                      <tr className="border-b border-stone-200">
+                        <td className="py-4 text-stone-500">10% Gewinnbeteiligung</td>
+                        <td className="py-4 text-right text-stone-500">- 449,50 €</td>
+                        <td className="py-4 text-right text-stone-500">- 3.948,80 €</td>
                       </tr>
-                      <tr className="text-amber-500 font-medium text-lg">
+                      <tr className="text-amber-600 font-medium text-lg">
                         <td className="pt-6">Reingewinn Smart Study</td>
                         <td className="pt-6 text-right">4.045,50 €</td>
                         <td className="pt-6 text-right">35.539,20 €</td>

@@ -64,82 +64,82 @@ export default function Strategy() {
               <strong>Das finanzielle Risiko kann auf 3.000 Euro begrenzt werden, die für die Reservierung gebraucht werden. Wird 90 Tage vor Seminarbeginn storniert, wird das Geld komplett erstattet. Wird nach dieser Frist die Reservierung storniert, werden lediglich diese 3.000 Euro einbehalten.</strong>
             </p>
 
-            <div className="grid md:grid-cols-2 gap-12">
-              <div>
-                <h4 className="text-lg font-medium mb-6 text-amber-600">Übersicht der Gesamtkosten (Fix)</h4>
-                <ul className="space-y-4 text-stone-700">
-                  <li className="flex justify-between border-b border-stone-200 pb-3">
-                    <span>Villa (Marokko)</span>
-                    <span>7.000 €</span>
+            <div className="grid lg:grid-cols-2 gap-12">
+              <div className="bg-stone-50 rounded-2xl p-6 md:p-8 border border-stone-200">
+                <h4 className="text-xl font-serif mb-6 text-stone-900 border-b border-stone-300 pb-4">Übersicht der Gesamtkosten (Fix)</h4>
+                <ul className="space-y-1">
+                  <li className="flex justify-between p-3 rounded-lg hover:bg-white transition-colors">
+                    <span className="text-stone-600">Villa (Marokko)</span>
+                    <span className="font-medium text-stone-800">7.000 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-200 pb-3">
-                    <span>Verpflegung vor Ort</span>
-                    <span>1.500 €</span>
+                  <li className="flex justify-between p-3 rounded-lg hover:bg-white transition-colors">
+                    <span className="text-stone-600">Verpflegung vor Ort</span>
+                    <span className="font-medium text-stone-800">1.500 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-200 pb-3">
-                    <span>Team-Flüge</span>
-                    <span>1.200 €</span>
+                  <li className="flex justify-between p-3 rounded-lg hover:bg-white transition-colors">
+                    <span className="text-stone-600">Team-Flüge</span>
+                    <span className="font-medium text-stone-800">1.200 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-200 pb-3">
-                    <span>Arbeitsmaterialien & Extras</span>
-                    <span>500 €</span>
+                  <li className="flex justify-between p-3 rounded-lg hover:bg-white transition-colors">
+                    <span className="text-stone-600">Arbeitsmaterialien & Extras</span>
+                    <span className="font-medium text-stone-800">500 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-200 pb-3">
-                    <span>Produktion KI-Werbefilm</span>
-                    <span>300 €</span>
+                  <li className="flex justify-between p-3 rounded-lg hover:bg-white transition-colors">
+                    <span className="text-stone-600">Produktion KI-Werbefilm</span>
+                    <span className="font-medium text-stone-800">300 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-200 pb-3">
-                    <span>Honorar KI-Leitung</span>
-                    <span>5.000 €</span>
+                  <li className="flex justify-between p-3 rounded-lg hover:bg-white transition-colors">
+                    <span className="text-stone-600">Honorar KI-Leitung</span>
+                    <span className="font-medium text-stone-800">5.000 €</span>
                   </li>
-                  <li className="flex justify-between border-b border-stone-200 pb-3">
-                    <span>Honorar Yoga-Leitung</span>
-                    <span>5.000 €</span>
+                  <li className="flex justify-between p-3 rounded-lg hover:bg-white transition-colors">
+                    <span className="text-stone-600">Honorar Yoga-Leitung</span>
+                    <span className="font-medium text-stone-800">5.000 €</span>
                   </li>
-                  <li className="flex justify-between text-stone-900 font-medium pt-3 text-lg">
-                    <span>Gesamtkosten</span>
-                    <span>20.500 €</span>
+                  <li className="flex justify-between p-4 mt-2 bg-stone-900 text-white rounded-xl shadow-sm">
+                    <span className="font-medium">Gesamtkosten</span>
+                    <span className="font-bold">20.500 €</span>
                   </li>
                 </ul>
-                <p className="text-xs text-stone-500 mt-4 italic">* Teilnehmer-Flüge sind nicht inkludiert.</p>
+                <p className="text-xs text-stone-500 mt-5 italic px-3">* Teilnehmer-Flüge sind nicht inkludiert.</p>
               </div>
 
-              <div>
-                <h4 className="text-lg font-medium mb-6 text-amber-600">Profit-and-Loss (Smart Study)</h4>
+              <div className="bg-amber-50 rounded-2xl p-6 md:p-8 border border-amber-200/60 shadow-sm">
+                <h4 className="text-xl font-serif mb-6 text-stone-900 border-b border-amber-200 pb-4">Profit-and-Loss (Smart Study)</h4>
                 <div className="overflow-x-auto">
                   <table className="w-full text-left text-sm">
                     <thead>
-                      <tr className="border-b border-stone-300 text-stone-600">
-                        <th className="pb-4 font-medium">Position</th>
-                        <th className="pb-4 font-medium text-right">Pilot (5 TN)</th>
-                        <th className="pb-4 font-medium text-right">Skaliert (12 TN)</th>
+                      <tr className="text-stone-500">
+                        <th className="pb-4 pt-2 font-medium px-3">Position</th>
+                        <th className="pb-4 pt-2 font-medium text-right px-3">Pilot (5 TN)</th>
+                        <th className="pb-4 pt-2 font-medium text-right px-3 text-amber-600">ausgebucht (12 TN)</th>
                       </tr>
                     </thead>
                     <tbody className="text-stone-700">
-                      <tr className="border-b border-stone-200">
-                        <td className="py-4">Umsatzerlös (netto)</td>
-                        <td className="py-4 text-right">24.995,00 €</td>
-                        <td className="py-4 text-right">59.988,00 €</td>
+                      <tr className="border-t border-amber-200/50">
+                        <td className="py-4 px-3">Umsatzerlös (netto)</td>
+                        <td className="py-4 px-3 text-right font-medium">24.995,00 €</td>
+                        <td className="py-4 px-3 text-right font-medium">59.988,00 €</td>
                       </tr>
-                      <tr className="border-b border-stone-200">
-                        <td className="py-4 text-stone-500">Abzug Gesamtkosten</td>
-                        <td className="py-4 text-right text-stone-500">- 20.500,00 €</td>
-                        <td className="py-4 text-right text-stone-500">- 20.500,00 €</td>
+                      <tr className="border-t border-amber-200/50">
+                        <td className="py-4 px-3 text-stone-500">Abzug Gesamtkosten</td>
+                        <td className="py-4 px-3 text-right text-stone-500">- 20.500,00 €</td>
+                        <td className="py-4 px-3 text-right text-stone-500">- 20.500,00 €</td>
                       </tr>
-                      <tr className="border-b border-stone-200 font-medium text-stone-900">
-                        <td className="py-4">Operativer Gewinn</td>
-                        <td className="py-4 text-right">4.495,00 €</td>
-                        <td className="py-4 text-right">39.488,00 €</td>
+                      <tr className="border-t border-amber-200 bg-amber-100/50">
+                        <td className="py-4 px-3 font-medium text-stone-900">Operativer Gewinn</td>
+                        <td className="py-4 px-3 text-right font-medium text-stone-900">4.495,00 €</td>
+                        <td className="py-4 px-3 text-right font-medium text-stone-900">39.488,00 €</td>
                       </tr>
-                      <tr className="border-b border-stone-200">
-                        <td className="py-4 text-stone-500">10% Gewinnbeteiligung</td>
-                        <td className="py-4 text-right text-stone-500">- 449,50 €</td>
-                        <td className="py-4 text-right text-stone-500">- 3.948,80 €</td>
+                      <tr className="border-t border-amber-200/50">
+                        <td className="py-4 px-3 text-stone-500">10% Gewinnbeteiligung</td>
+                        <td className="py-4 px-3 text-right text-stone-500">- 449,50 €</td>
+                        <td className="py-4 px-3 text-right text-stone-500">- 3.948,80 €</td>
                       </tr>
-                      <tr className="text-amber-600 font-medium text-lg">
-                        <td className="pt-6">Reingewinn Smart Study</td>
-                        <td className="pt-6 text-right">4.045,50 €</td>
-                        <td className="pt-6 text-right">35.539,20 €</td>
+                      <tr className="border-t-2 border-stone-800 bg-stone-900 text-white shadow-md">
+                        <td className="py-5 px-4 font-medium rounded-l-xl text-base">Reingewinn Smart Study</td>
+                        <td className="py-5 px-4 text-right font-medium text-amber-400">4.045,50 €</td>
+                        <td className="py-5 px-4 text-right font-bold text-amber-400 rounded-r-xl text-lg">35.539,20 €</td>
                       </tr>
                     </tbody>
                   </table>

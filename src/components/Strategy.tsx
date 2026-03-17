@@ -21,7 +21,7 @@ export default function Strategy() {
             {
               phase: "Phase 2",
               title: "Optimieren",
-              desc: "Das Angebot dank Feedback und Erfahrungswerten verbessern und mehrmals testen.",
+              desc: "Das Angebot dank Feedback und Erfahrungswerten verbessern und nochmal testen.",
               icon: TrendingUp
             },
             {

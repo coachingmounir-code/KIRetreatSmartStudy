@@ -6,6 +6,7 @@
 import Hero from './components/Hero';
 import Strategy from './components/Strategy';
 import YearlyPlan from './components/YearlyPlan';
+import LandingPagePromo from './components/LandingPagePromo';
 import Investment from './components/Investment';
 import Contract from './components/Contract';
 
@@ -15,6 +16,7 @@ export default function App() {
       <Hero />
       <Strategy />
       <YearlyPlan />
+      <LandingPagePromo />
       <Investment />
       <Contract />
     </div>
